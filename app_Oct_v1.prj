@@ -1,0 +1,221 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4214789629" file="/Users/wenchingmei/Desktop/FBA GUI/app_Oct_v1.prj" location="/Users/wenchingmei/Desktop/FBA GUI" name="app_Oct_v1" target="target.mlapps" target-name="Package App">
+    <param.appname>app_Oct_v1</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>/private/var/folders/6n/1yqcdlxj725b6lzwj7500gf00000gn/T/tp885cc910_6e98_4ae6_a736_a13a8b66ef2e.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>maci64</item>
+    </param.platforms>
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>adf5d96d-21da-43ee-b19c-08f0128dd8e2</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/app_Octv1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/userdefinedFBA.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/binary/maci64/bin/glpkcc.mexmaci64</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/binary/maci64/bin/postSierra/TranslateSBML.mexmaci64</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/drawCbMap.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/drawFlux.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/plotcbmap.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/setMapOptions.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/drawArrowhead.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/drawBezier.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/drawCircle.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/drawLine.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/drawShape.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/drawText.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/drawVector.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/deprecated/_maps_old/tools/getColorFromColorScale.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/install/getsysenvironvar.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/install/setsysenvironvar.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/io/BuildMPS/BuildMPS.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/io/BuildMPS/SaveMPS.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/samplers/looplessFluxSampler/fxns/buildSNVproblem.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/samplers/looplessFluxSampler/fxns/fastSNP.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/solvers/glpkmex/glpk.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/solvers/glpkmex/qpng.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/solvers/glpkmex/qpsolng.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/solvers/pdco/code/lsmr.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/solvers/pdco/code/minres.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/solvers/pdco/code/pdco.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/solvers/pdco/code/pdcoSet.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/utilities/rdir/rdir.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/utilities/sparseNull.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/external/base/utilities/textprogressbar/textprogressbar.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/initCobraToolbox.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/FBA/changeObjective.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/FBA/changeRxnBounds.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/FBA/optimizeCbModel.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/FVA/fluxVariability.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/FVA/mtFVA.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/MOMA/linearMOMA.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/exploration/findBlockedIrrRxns.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/exploration/findRxnIDs.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/exploration/getObjectiveSense.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/exploration/printRxnFormula.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/sparseFBA/sparseFBA.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/thermo/thermoFBA/addLoopLawConstraints.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/thermo/thermoFBA/connectedRxnsByEFM.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/thermo/thermoFBA/connectedRxnsInNullSpace.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/thermo/thermoFBA/findMinNull.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/thermo/thermoFBA/processingLLCs.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/topology/getCorrespondingCols.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/analysis/topology/getCorrespondingRows.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/createDeltaMatchMatrix.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/hyperlink.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/adaptMacPath.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/addCOBRABinaryPathToSystemPath.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/getFilesInDir.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/getGitBashVersion.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/getIgnoredFiles.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/installGitBash.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/portableGitSetup.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/removeTempFiles.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/updateCobraToolbox.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/install/updateGitBash.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/definitions/descFileRead.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/readMinosSolution.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/utilities/buildRxnGeneMat.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/utilities/createEmptyFields.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/utilities/getDefaultCompartmentSymbols.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/utilities/getDefinedFieldProperties.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/utilities/getDistributedModelFolder.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/utilities/getMultiDimensionFields.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/writeLPProblem.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/io/writeMinosProblem.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/parseCobraVarargin.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/parseGPR.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/paths/editCobraToolboxPath.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/preparseGPR.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/buildLPproblemFromModel.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cardOpt/sparseLP/evalObj.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cardOpt/sparseLP/old/optimizeCardinalityOld.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cardOpt/sparseLP/optimizeCardinality.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cardOpt/sparseLP/sparseLP.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cardOpt/sparseLP/updateObj.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cplex/buildCplexProblemFromCOBRAStruct.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cplex/checkSolFeas.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cplex/cplexStatus.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cplex/getParamList.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cplex/setCplexParam.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cplex/setCplexParametersForProblem.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/cplex/solveCobraLPCPLEX.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/getSetSolver/changeCobraSolver.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/getSetSolver/getCobraSolverVersion.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/init/configEnvVars.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/isCompatible.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/lp_solve/lp_solve.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/lp_solve/mxlpsolve.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/msk/parseMskResult.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/param/changeCobraSolverParams.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/param/getCobraSolverParams.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/param/getCobraSolverParamsOptionsForType.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/param/parseSolverParameters.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/rescale/reformulate.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/solveCobraLP.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/solveCobraMILP.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/solveCobraMIQP.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/solveCobraQP.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/solvers/verifyCobraProblem.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/clearGlobal.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/columnVector.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/extendIndicesInDimenion.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/getDefaultTableRow.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/getDefaultValue.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/getEnvironment.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/getGlobalValue.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/removeIndicesInDimenion.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/restoreEnvironment.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/setGlobal.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/showprogress.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/base/utilities/updateStructData.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/dataIntegration/chemoInformatics/molecularWeight/basicPhysicochemicalData/Atomic_Weights_and_Isotopic_Compositions_for_All_Elements.txt</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/dataIntegration/chemoInformatics/molecularWeight/basicPhysicochemicalData/getElementalWeightMatrix.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/dataIntegration/chemoInformatics/molecularWeight/basicPhysicochemicalData/parse_Atomic_Weights_and_Isotopic_Compositions_for_All_Elements.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/dataIntegration/chemoInformatics/molecularWeight/getMolecularMass.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/detectDeadEnds.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/massBalance/checkBalance.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/massBalance/checkMassChargeBalance.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/massBalance/findSExRxnInd.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/massBalance/getElementalComposition.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/massBalance/numAtomsOfElementInFormula.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/modelVerification/checkDatabaseIDs.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/modelVerification/checkPresentFields.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/modelVerification/verifyModel.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/stoichConsistency/findMassLeaksAndSiphons.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/stoichConsistency/findStoichConsistentSubset.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/stoichConsistency/maxCardinalityConservationVector.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/modelGeneration/stoichConsistency/minCardinalityConservationRelaxationVector.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/GPRLogic/AndNode.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/GPRLogic/FormulaParser.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/GPRLogic/LiteralNode.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/GPRLogic/Node.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/GPRLogic/OrNode.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/GPRLogic/combineChildren.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/addCOBRAConstraints.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/addGenes.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/extendModelFieldsForType.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/generateRules.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/getEmptyConstraints.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/getIDPositions.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/getModelFieldsForType.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/reassignFwBwMatch.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/removeCOBRAConstraints.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/removeFieldEntriesForType.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/removeMetabolites.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/removeRxns.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/reconstruction/refinement/removeUnusedGenes.m</file>
+      <file>/Users/wenchingmei/Library/Application Support/MathWorks/MATLAB Add-Ons/Apps/app_FBA/Documents/MATLAB/cobratoolbox-master/src/visualization/maps/ReconMap/changeCbMapOutput.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/wenchingmei/Desktop" name="FBA GUI" optional="false">/Users/wenchingmei/Desktop/FBA GUI</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2021a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.16</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
